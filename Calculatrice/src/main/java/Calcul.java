@@ -31,6 +31,7 @@ public class Calcul extends HttpServlet {
 			String par2 = request.getParameter("par2");
 			int  somme = Integer.parseInt(par1)+Integer.parseInt(par2);
 			response.getWriter().append(par1+" + "+par2+" = "+somme);
+			//beinnnnn
 		}
 	}
 
